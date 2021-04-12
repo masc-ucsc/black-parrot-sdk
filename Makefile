@@ -35,6 +35,8 @@ prog: sdk
 	#$(MAKE) riscv-dv
 	# Requires patience
 	#$(MAKE) linux
+	# Need a way to specify which program to run
+	#$(MAKE) zephyr
 
 tidy:
 	git submodule deinit -f dromajo riscv-gnu-toolchain
