@@ -5,6 +5,8 @@ export PYTHON    ?= python3
 export XXD       ?= xxd
 export CURL      ?= curl
 
+#BLAHBLAH
+
 ## Directories to install into
 export BP_SDK_INSTALL_DIR := $(BP_SDK_DIR)/install
 export BP_SDK_BIN_DIR     := $(BP_SDK_INSTALL_DIR)/bin
